@@ -1,5 +1,5 @@
 # SignedMTG Scraper
-A selenium script to find and save signed/graded/altered MTG card listings from TCGPlayer. Will print all outputs into a `.xlsx` file. I am not responsible for any issues resulting from the usage of this script.
+A selenium script to find and save signed/graded/altered MTG card listings from TCGPlayer. Will print all outputs into a `.xlsx` file. I am not responsible for any issues resulting from the usage of this script. 
 
 ## Dependencies
 Python 3.11.9 (Later versions should work but this is what I use<br>
@@ -65,3 +65,5 @@ Example command: `python main.py -g`
 Meant for development, adds extra debug logs to the command line.<br>
 Example command: `python main.py -v`
 
+## Credits
+This project was inspired by https://github.com/davidteather/TCGPlayer-Scraper, an old script that saves all listings with photos from tcgplayer based on a list of links.
